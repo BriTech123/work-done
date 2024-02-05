@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checking-out-page</title>
+    <style>
+        #outside {
+            height: 300px;
+            width: 300px;
+            border-style: none;
+            float: right;
+            padding-top: 40px;
+
+        }
+
+        body {
+            background-color: rgb(18, 15, 18);
+        }
+
+        form {
+            color: red;
+        }
+
+        /*.inside{
+    border-style: solid;
+    height: 80px;
+    width: 80px;
+    position: relative;
+
+}*/
+#heading{
+    color:white;
+}
+#bold{
+    text-align: right;
+    color:orange;
+}
+    </style>
+</head>
+
+<body>
+    <h1 id="heading"><marquee>WELCOME TO STUDENT PORTAL</marquee></h1>
+    <div id="outside">
+        <form>
+            <hi>SIGN IN (to continue)</hi><br> <br>
+            <input type="text" /> <label>Fname</label><br> <br><input type="number" /> <label>number</label> <br><br>
+            <input type="password" />
+            <label>password</label><br> <br>
+            <hi>COUNTRY</hi> <br>
+            <select id="country">
+                <option>NIGERIA</option>
+                <option>NIGER</option>
+                <option>ALGERIA</option>
+                <option>GHANA</option>
+                <option>USA</option>
+                <option>CANADA</option>
+                <option>UK</option>
+            </select>
+            <br> <br>
+            <hi id="bold">LOG IN</hi>
+        </form>
+        <div class="inside">
+
+        </div>
+
+    </div>
+</body>
+
+</html>
